@@ -1,0 +1,6 @@
+.Profile{
+    display: grid;
+    border: 1px solid black;
+    grid-column: 1;
+    margin: 2em;
+}

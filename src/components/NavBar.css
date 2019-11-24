@@ -1,0 +1,16 @@
+nav {
+    display: grid;
+    grid-column-start: 1;
+    grid-column: 1 / span 2;
+    height: 40px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+button{
+    position: relative;
+    right: 16px;
+}

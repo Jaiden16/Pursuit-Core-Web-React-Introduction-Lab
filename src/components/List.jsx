@@ -15,7 +15,10 @@ class Posts extends React.Component{
     render(){
         return(
             <div className = "List">
-                <img src = {this.info.image} width='150' alt = ""/>
+                <div>
+                    <img src = {this.info.image} width='150' alt = ""/>
+                </div>
+
                 <div className= "desc">
                     <p id = "name">{this.info.Name}</p>
                     <p id = "title">{this.info.Title}</p>

@@ -1,8 +1,7 @@
 .App {
   display: grid;
-  grid-template-columns: 65% 1fr;
-  text-align: center;
-  grid-gap: 20px;
+  /* grid-template-rows: repeat(3,1fr); */
+  grid-template-columns: repeat(2,1fr);
    
 }
 

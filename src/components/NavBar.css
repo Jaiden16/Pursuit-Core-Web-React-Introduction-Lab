@@ -1,16 +1,12 @@
 nav {
-    display: grid;
-    grid-column-start: 1;
-    grid-column: 1 / span 2;
-    height: 40px;
     background-color: lightblue;
     display: flex;
-    align-items: center;
+    padding: 15px;
     justify-content: flex-end;
+    grid-column: 1 / 3;
 
 }
 
 button{
-    position: relative;
-    right: 16px;
+    margin: 10px;
 }

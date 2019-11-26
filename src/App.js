@@ -2,13 +2,13 @@ import React from 'react';
 import Navbar from "./components/NavBar"
 import Contacts from "./components/Contacts"
 import Profile from './components/Profile';
-import './App.css';
 import PostContainer from './components/PostContainer';
+import './App.css';
 
 
 function App() {
   return (
-    <div>
+    <div className = "App">
       <Navbar/>
       <Profile/>
       <Contacts/>

@@ -1,6 +1,6 @@
 .Profile{
-    display: grid;
+     display: flex;
     border: 1px solid black;
-    grid-column: 1;
+    /* grid-column: 1; */
     margin: 2em;
 }

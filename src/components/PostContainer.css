@@ -1,8 +1,6 @@
 .Post-Container{
     border: 1px solid black;
     display: grid;
-    grid-column-start: 3;
-    grid-row: 3 / 4;
     margin: 2em;
     text-align: center;
 }

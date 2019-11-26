@@ -7,11 +7,10 @@ class Posts extends React.Component{
         super();
         this.info = {
             image: Image,
-            Name: "Jonathan Fagan",
-            Title: "FullStack Web Designer/ GamePlay Designer",
-            Description: "I make game's and webpages"
+            
         }
     }
+    
     render(){
         return(
             <div className = "List">
@@ -20,9 +19,9 @@ class Posts extends React.Component{
                 </div>
 
                 <div className= "desc">
-                    <p id = "name">{this.info.Name}</p>
-                    <p id = "title">{this.info.Title}</p>
-                    <p id = "desc">{this.info.Description}</p>
+                    <p id = "name">Name</p>
+                    <p id = "title">Title</p>
+                    <p id = "desc">Description</p>
                 </div>
             </div>
         )

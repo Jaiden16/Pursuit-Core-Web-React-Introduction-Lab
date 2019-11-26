@@ -2,12 +2,8 @@
     border: 1px solid black;
     display: flex;
     margin: 2em;
-}
-
-p{
-    width: 100%;
-}
-
-#name, #title, #desc{
     text-align: center;
+
 }
+
+

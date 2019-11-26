@@ -2,8 +2,8 @@
     /* display: grid; */
     border: 1px solid black;
     text-align: center;
-    /* grid-column-start: 2;
-    grid-row: 2 / 4; */
+    grid-row: 2 / 4;
+    grid-column: 2 / 3;
     margin: 2em;
 }
 
